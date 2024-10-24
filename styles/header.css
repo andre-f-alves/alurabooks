@@ -1,0 +1,6 @@
+header .menu {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("../icons/Menu.svg") no-repeat center;
+}
