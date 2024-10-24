@@ -1,6 +1,43 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
 header .menu {
+  position: relative;
   display: inline-block;
   width: 24px;
   height: 24px;
   background: url("../icons/Menu.svg") no-repeat center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  padding: 5px;
+}
+
+#menu-button:checked ~ .list-menu {
+  display: block;
+}
+
+.list-menu {
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+
+.menu-title,
+.menu-item {
+  padding: 5px;
+  background-color: white;
+}
+
+.menu-title {
+  color: orange;
 }

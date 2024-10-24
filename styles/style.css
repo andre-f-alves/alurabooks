@@ -1,4 +1,9 @@
 @charset "UTF-8";
 
+:root {
+  --bg-color: #dadada;
+  --blue-gradient: linear-gradient(95deg, #002f52, #326589);
+}
+
 @import url("reset.css");
 @import url("header.css");
