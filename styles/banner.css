@@ -1,0 +1,34 @@
+.banner {
+  padding: 32px 25px;
+  text-align: center;
+  color: white;
+  background-image: var(--blue-gradient);
+}
+
+.banner-title {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.banner-text {
+  margin: 15px 0;
+  font-weight: 500;
+}
+
+.searchbar {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 25px;
+  color: white;
+  background-color: transparent;
+}
+
+.searchbar::placeholder {
+  font-family: var(--default-font);
+  font-size: .9em;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  background: url("../icons/Lupa.svg") no-repeat 15px;
+}
