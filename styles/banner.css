@@ -32,3 +32,17 @@
   color: white;
   background: url("../icons/Lupa.svg") no-repeat 15px;
 }
+
+@media screen and (min-width: 1024px) {
+  .banner-title {
+    font-size: 2em;
+  }
+
+  .searchbar {
+    width: 50%;
+  }
+
+  .searchbar::placeholder {
+    background-position: 200px;
+  }
+}

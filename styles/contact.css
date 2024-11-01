@@ -35,3 +35,24 @@
   color: var(--default-blue);
   background: url("../icons/Email.svg") no-repeat;
 }
+
+@media screen and (min-width: 1024px) {
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-description {
+    width: 30%;
+    margin-right: 15px;
+  }
+
+  .contact-title {
+    font-size: 1.5em;
+  }
+
+  .email-contact {
+    width: 30%;
+  }
+}

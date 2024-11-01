@@ -28,3 +28,13 @@
   color: white;
   background-color: orange;
 }
+
+@media screen and (min-width: 1024px) {
+  .topics-title {
+    font-size: 24px;
+  }
+
+  .topics-link {
+    font-size: 24px;
+  }
+}

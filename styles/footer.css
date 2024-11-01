@@ -8,3 +8,39 @@ footer {
   padding: 15px;
   background-color: white;
 }
+
+.footer-list {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-title {
+    font-size: 1.9em;
+  }
+
+  .footer-list {
+    display: block;
+  }
+
+  .footer-list-title {
+    font-size: .9em;
+    color: lightgray;
+  }
+
+  .footer-list-item {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+  }
+
+  .footer-list-link {
+    margin-left: 8px;
+    text-decoration: none;
+    color: lightgray;
+  }
+}

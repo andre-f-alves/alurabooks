@@ -72,3 +72,23 @@
   color: white;
   background-color: orange;
 }
+
+@media screen and (min-width: 1024px) {
+  .carousel-title {
+    font-size: 1.5em;
+  }
+
+  .swiper-pagination {
+    margin: 30px 0 45px 0;
+  }
+
+  .swiper {
+    width: 60%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+}
