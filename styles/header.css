@@ -56,3 +56,50 @@ header img {
   -webkit-background-clip: text;
   background-image: var(--blue-gradient);
 }
+
+.title {
+  display: none;
+}
+
+.options-list {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  header .menu {
+    display: none;
+  }
+  
+  .title,
+  .bold-title {
+    font-family: var(--secondary-font);
+    font-size: 1.9em;
+  }
+
+  .title {
+    display: block;
+    font-weight: 400;
+  }
+
+  .bold-title {
+    font-weight: 700;
+  }
+
+  .options-list {
+    display: flex;
+  }
+
+  .option {
+    padding: 0 15px;
+    text-transform: uppercase;
+  }
+
+  .option-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .transparent-img {
+    display: none;
+  }
+}
