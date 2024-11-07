@@ -92,3 +92,32 @@
     top: 60%;
   }
 }
+
+@media screen and (min-width: 1728px) {
+  .carousel-container {
+    display: flex;
+    width: 50%;
+    margin: 0 20vw 45px 20vw;
+  }
+
+  .swiper {
+    width: 50%;
+  }
+
+  .swiper-pagination {
+    margin: 15px 0;
+  }
+
+  .card {
+    width: 60%;
+    margin-left: 45px;
+  }
+
+  .description-title {
+    font-size: 2em;
+  }
+
+  .text-description {
+    font-size: 1em;
+  }
+}

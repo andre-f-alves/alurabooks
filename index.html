@@ -16,7 +16,7 @@
 		<div class="container">
       <input type="checkbox" name="menu-button" id="menu-button">
 
-      <label for="menu-button">
+      <label for="menu-button" class="menu-label">
         <span class="menu"></span>
       </label>
 
@@ -50,7 +50,7 @@
       <ul class="options-list">
         <input type="checkbox" name="options-list-button" id="options-list-button">
         
-        <label for="options-list-button">
+        <label for="options-list-button" class="options-label">
           <li class="option">Categorias</li>
         </label>
 
@@ -108,42 +108,44 @@
   <section class="carousel">
     <h2 class="carousel-title">Novos lançamentos</h2>
 
-    <div class="swiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="icons/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da AluraBooks"></div>
-        
-        <div class="swiper-slide"><img src="icons/Liderança.svg" alt="Livro sobre liderança em design da AluraBooks"></div>
-        
-        <div class="swiper-slide"><img src="icons/Javascript.svg" alt="Livro sobre JavaScript assertivo da AluraBooks"></div>
-        
-        <div class="swiper-slide"><img src="icons/Guia Front-end.svg" alt="Livro guia front-end"></div>
-        
-        <div class="swiper-slide"><img src="icons/Portugol.svg" alt="Livro sobre Portugol"></div>
-        
-        <div class="swiper-slide"><img src="icons/Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
-      </div>
+    <div class="carousel-container">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="icons/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da AluraBooks"></div>
       
-      <div class="swiper-pagination"></div>
-    
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-    
-      <div class="swiper-scrollbar"></div>
-    </div>
-
-    <div class="card">
-      <div class="card-description">
-        <div class="description">
-          <h3 class="description-title">Talvez você também se interesse por...</h3>
-          
-          <h2 class="book-title-description">Angular 11 e Firebase</h2>
-          
-          <p class="text-description">
-            Construindo uma aplicação integrada com a plataforma do Google.
-          </p>
+          <div class="swiper-slide"><img src="icons/Liderança.svg" alt="Livro sobre liderança em design da AluraBooks"></div>
+      
+          <div class="swiper-slide"><img src="icons/Javascript.svg" alt="Livro sobre JavaScript assertivo da AluraBooks"></div>
+      
+          <div class="swiper-slide"><img src="icons/Guia Front-end.svg" alt="Livro guia front-end"></div>
+      
+          <div class="swiper-slide"><img src="icons/Portugol.svg" alt="Livro sobre Portugol"></div>
+      
+          <div class="swiper-slide"><img src="icons/Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
         </div>
-        <img src="icons/Angular.svg" alt="Angular" class="image-description">
+      
+        <div class="swiper-pagination"></div>
+      
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <div class="swiper-scrollbar"></div>
       </div>
+
+      <div class="card">
+        <div class="card-description">
+          <div class="description">
+            <h3 class="description-title">Talvez você também se interesse por...</h3>
+      
+            <h2 class="book-title-description">Angular 11 e Firebase</h2>
+      
+            <p class="text-description">
+              Construindo uma aplicação integrada com a plataforma do Google.
+            </p>
+          </div>
+          <img src="icons/Angular.svg" alt="Angular" class="image-description">
+        </div>
+    </div>
 
       <div class="card-buttons">
         <ul class="buttons">

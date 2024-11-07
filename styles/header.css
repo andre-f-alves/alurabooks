@@ -38,6 +38,14 @@ header img {
   display: block;
 }
 
+.menu-button:checked ~ .menu-label > .menu {
+  background-image: url("../icons/Menu Aberto.svg");
+}
+
+.menu-button:checked ~ .menu-label {
+  background: var(--blue-gradient);
+}
+
 .menu-title,
 .menu-item {
   padding: 15px;
@@ -98,18 +106,32 @@ header img {
     width: auto;
   }
 
+  .options-list-button:checked ~ .option-label > option {
+    background: var(--blue-gradient);
+    color: white;
+  }
+
   .options-list-button {
     display: none;
   }
 
+  .menu-item:hover {
+    background: var(--blue-gradient);
+  }
+
   .option {
-    padding: 0 15px;
+    padding: 30px 15px;
     text-transform: uppercase;
   }
 
   .option-link {
     text-decoration: none;
     color: black;
+  }
+
+  .menu-item:hover > .option-link {
+    -webkit-text-fill-color: white;
+    text-decoration: none;
   }
 
   .transparent-img {
